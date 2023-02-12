@@ -1,0 +1,84 @@
+.div1{
+    width: 100%;
+    background-color: rgb(27, 15, 15);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.html{
+    width: 90%;
+    background-color: rgb(190, 178, 178);
+    animation: anime1 1s ease-in-out 1s infinite;
+
+}
+.python{
+    width: 70%;
+    background-color: rgb(190, 178, 178);
+    animation: anime2 1s ease-in-out 1s infinite;
+
+}
+.css{
+    width: 80%;
+    animation: anime 1s ease-in-out 1s infinite;
+    background-color: rgb(190, 178, 178);
+}
+.bootstrap{
+    width: 75%;
+    animation: anime4 1s ease-in-out 1s infinite;
+
+    background-color: rgb(190, 178, 178);
+}
+body{
+    background-color: rgb(241, 233, 233);
+}
+.div1{
+    
+    
+    height: 273px;
+    border-radius: 22px;
+}
+
+
+@keyframes anime{
+    0%{
+        width: 0%;
+        
+    }
+    50%{
+        width:40% ;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes anime4{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width:30% ;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes anime1{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width:45% ;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes anime2{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width:35% ;
+    }
+    100%{
+        width: 70%;
+    }
+}
